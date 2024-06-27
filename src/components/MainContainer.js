@@ -3,7 +3,7 @@ import JobInfoSidebar from "./JobInfoSidebar";
 
 const MainContainer = () => {
   return (
-    <div>
+    <div className="grid grid-cols-[3fr,1fr]">
       <JobInfoContainer />
       <JobInfoSidebar />
     </div>
