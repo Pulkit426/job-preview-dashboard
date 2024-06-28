@@ -1,9 +1,9 @@
 const JobDescription = () => {
   return (
-    <div className="mt-5 ml-10 ">
-      <h4 className="text-gray-400 font-semibold"> About the Job </h4>
-      <div>
-        <ol className="list-decimal list-inside mb-6">
+    <div className="mt-5 pl-10 pb-10 border-b-2 font-general-sans">
+      <h4 className="text-gray-400 font-semibold mb-2"> About the Job </h4>
+      <div className="font-medium text-gray-600">
+        <ol className="list-decimal list-inside">
           <li>Handle the UI/UX research design</li>
           <li>
             Work on researching the latest web application design and trends
@@ -14,7 +14,7 @@ const JobDescription = () => {
           </li>
         </ol>
 
-        <div className="mb-6">
+        <div>
           <p>Benefits:</p>
           <ul className="list-disc list-inside">
             <li>Health insurance</li>
@@ -22,14 +22,14 @@ const JobDescription = () => {
           </ul>
         </div>
 
-        <div className="mb-6">
+        <div>
           <p>Schedule:</p>
           <ul className="list-disc list-inside">
             <li>Day Shift</li>
           </ul>
         </div>
 
-        <div className="mb-6">
+        <div>
           <p>Supplemental pay types:</p>
           <ul className="list-disc list-inside">
             <li>Performance bonus</li>

@@ -29,8 +29,8 @@ const CompanyInfo = () => {
   ];
 
   return (
-    <div className="m-2 mt-20 ml-10">
-      <div className="flex items-center gap-2 mb-5">
+    <div className="m-2 mt-10 pl-10 pb-10">
+      <div className="flex items-center gap-2 mb-10">
         <img src={logo} alt="Atlassian" className="w-8 h-8" />
         <h3 className="text-neutralGray font-semibold text-xl"> Atlassian </h3>
       </div>

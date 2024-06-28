@@ -4,7 +4,7 @@ import MainContainer from "./components/MainContainer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="font-general-sans">
       <Header />
       <HeaderOptions />
       <MainContainer />

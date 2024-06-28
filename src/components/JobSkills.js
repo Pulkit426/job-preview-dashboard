@@ -7,7 +7,7 @@ const JobSkills = () => {
     { Heading: "Years of Experience", Info: "3+ Years" },
   ];
   return (
-    <div className="m-2 ml-10 mt-10 grid grid-cols-[2fr,2fr,1fr,3fr] gap-10">
+    <div className="ml-0 pl-10 pb-10 mt-10 grid grid-cols-[2fr,2fr,1fr,3fr] gap-10 border-b-2">
       <div>
         <div className="text-neutralGray font-semibold mb-2">
           Skills Required
